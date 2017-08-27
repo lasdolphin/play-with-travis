@@ -2,7 +2,7 @@ language: python
 python:
 - '3.4'
 - '3.5'
-script: pip install --no-cache-dir -r requirements.txt
+install: pip install --no-cache-dir -r requirements.txt
 script: python -m unittest
 notifications:
   slack:
